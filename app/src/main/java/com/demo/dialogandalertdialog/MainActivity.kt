@@ -24,14 +24,14 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    DialogScreen()
-                    Spacer(modifier = Modifier.padding(10.dp))
-                    AlertDialogScreen()
+                   AlertDialogScreen()
                 }
             }
         }
     }
 }
+
+
 
 @Composable
 fun DialogScreen(){
